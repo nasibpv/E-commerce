@@ -1,0 +1,70 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Airpods ",
+      "categoryId": "2",
+      "description":"latest",
+      "price":"1199",
+      "isAvailable":"true",
+      "productImage":"https://i.postimg.cc/v87XW5N2/1.png",
+      "rating":"4.4",
+      "review":"150",
+      "vendorName":"malabar",
+      "warrenty":""
+    },
+    {
+      "id": 1,
+      "productName": " blutooth headphone ",
+      "categoryId": "1",
+      "description":"latest",
+      "price":"1000",
+      "isAvailable":"true",
+      "productImage":"https://i.postimg.cc/GmNV93zN/headset2.jpg",
+      "rating":"4.4",
+      "review":"150",
+      "vendorName":"malabar",
+      "warrenty":""
+    },
+    {
+      "id": 1,
+      "productName": "blutooth headphone ",
+      "categoryId": "1",
+      "description":"latest",
+      "price":"1599",
+      "isAvailable":"true",
+      "productImage":"https://i.postimg.cc/sXj8WKJz/headset4.png",
+      "rating":"4.4",
+      "review":"150",
+      "vendorName":"malabar",
+      "warrenty":""
+    },
+    {
+      "id": 1,
+      "productName": "Airpods",
+      "categoryId": "2",
+      "description":"latest",
+      "price":"1599",
+      "isAvailable":"true",
+      "productImage":"https://i.postimg.cc/L6KmfxQx/5.png",
+      "rating":"4.4",
+      "review":"150",
+      "vendorName":"malabar",
+      "warrenty":""
+    },
+    {
+      "id": 1,
+      "productName": "headset",
+      "categoryId": "3",
+      "description":"latest",
+      "price":"1599",
+      "isAvailable":"true",
+      "productImage":"https://i.postimg.cc/mkWKc5ZM/1.png",
+      "rating":"4.4",
+      "review":"150",
+      "vendorName":"malabar",
+      "warrenty":""
+    }
+  ]
+
+}

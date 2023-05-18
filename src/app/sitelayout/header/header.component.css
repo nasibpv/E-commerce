@@ -1,0 +1,26 @@
+.navbar{
+    background-color: rgb(75, 80, 155);
+    
+}
+.navbar .navbar-brand{
+    background-image: conic-gradient(rgb(218, 93, 93) 0deg, rgb(225, 75, 75) 180deg,rgb(204, 173, 115) 180deg,rgb(199, 176, 117) 0deg);
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    border-top-right-radius: 10px;
+border-end-start-radius: 10px;
+box-shadow: -1px -5px -2px -1px;
+}
+.navbar .navbar-brand:hover{
+    background-image: conic-gradient(rgb(200, 73, 73) 0deg, rgb(192, 64, 64) 180deg,rgb(219, 173, 88) 180deg,rgb(178, 149, 76) 0deg);
+
+}
+.navbar .navbar-brand .fa-solid{
+    color: rgb(103, 240, 245);
+    background-color: antiquewhite;
+    border-radius: 25px;
+    margin-right: 5px;
+}
+.navbar .navbar-brand .fa-solid:hover{
+    
+    color:rgb(96, 206, 210) ;
+}

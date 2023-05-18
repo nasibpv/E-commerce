@@ -1,0 +1,73 @@
+  
+        <!-- Header-->
+        <header class=" py-5">
+            <div class="container px-5 px-lg-5 my-5">
+                <div class="text-center text-white">
+                    <h1 class="display-4 fw-bolder">Shop in style</h1>
+                    <p class="lead fw-normal text-white-50 mb-0">With this shop hompeage template</p>
+                </div>
+            </div>
+        </header>
+        <!-- <div class="row p-2 border border-dark">
+            <a>category</a><a>category</a><a>category</a><a>category</a><a>category</a>            
+        </div> -->
+        <!-- Section-->
+        <div class="container">
+            <div class="container row text-center">
+                <div class="p-4 col-3">
+                   <a (click)="filter('')">
+                        <img  class="w-50 rounded-circle " src="https://i.postimg.cc/pVgYytV6/headphones.jpg" alt="">
+                        <p class="p-3">Home</p>
+                   </a>
+                </div>
+                <div class="p-4 col-3">
+                    <a (click)="filter(1)">
+                        <img class="w-50 rounded-circle " src="https://i.postimg.cc/pVgYytV6/headphones.jpg" alt="">
+                        <p class="p-3">bluetooth headphone</p>
+                    </a>
+                </div>
+                <div class="p-4 col-3">
+                   <a (click)="filter(3)">
+                        <img class="w-50 rounded-circle " src="https://i.postimg.cc/pVgYytV6/headphones.jpg" alt="">
+                        <p class="p-3">headsets</p>
+                   </a>
+                </div>
+                <div class="p-4 col-3 ">
+                  <a (click)="filter(2)">
+                        <img class="w-50 rounded-circle " src="https://i.postimg.cc/pVgYytV6/headphones.jpg" alt="">
+                        <p class="p-3">Airpods</p>
+                  </a>
+                </div>
+            </div>
+        </div>
+        <section class="py-5">
+            <div class="container px-4 px-lg-5 mt-5">
+                <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row -cols-xl-4 justify-content-center">
+                    <div *ngFor="let i of filterProduct | filter:'':'productName' " class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img style="height: 200px;" class="card-img-top " src="{{i.productImage}}" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder">{{i.productName}}</h5>
+                                    <!-- Product price-->
+                                    {{i.price}} Rs
+                                    <p>Rating <strong>{{i.rating}}</strong></p>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="products/viewProduct/{{i.id}}">View options</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
